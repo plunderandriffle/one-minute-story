@@ -68,16 +68,16 @@
 .header-cta { height: 35px; padding: 0 15px; font-size: 11px; }
 .quiet-button { color: var(--foreground); padding: 0 16px; height: 44px; font-size: 11px; font-weight: 700; background: transparent; }
 .quiet-button:hover { color: var(--primary); background: var(--secondary); }
-.hero { position: relative; text-align: center; padding: 27px 20px 42px; overflow: hidden; }
+.hero { position: relative; text-align: center; padding: 15px 20px 28px; overflow: hidden; }
 .eyebrow { display: inline-flex; align-items: center; gap: 7px; font-size: 9px; font-weight: 600; color: var(--muted-foreground); }
 .eyebrow-dot { width: 5px; height: 5px; border-radius: 50%; background: var(--primary); }
-.hero h1 { font-size: 70px; line-height: 1.08; letter-spacing: 0; font-weight: 800; margin: 17px 0 12px; }
+.hero h1 { font-size: 62px; line-height: 1.08; letter-spacing: 0; font-weight: 800; margin: 17px 0 12px; }
 .hero h1 span { color: var(--primary); }
 .hero-subtitle { font-size: 13px; color: var(--muted-foreground); margin: 0; }
-.phone-stage { position: relative; width: min(100%, 860px); height: 421px; margin: 28px auto 21px; display: flex; justify-content: center; align-items: center; }
+.phone-stage { position: relative; width: min(100%, 860px); height: 385px; margin: 23px auto 15px; display: flex; justify-content: center; align-items: center; }
 .orbit { position: absolute; width: 610px; height: 300px; border: 1px solid var(--border); border-radius: 50%; transform: rotate(-17deg); opacity: .5; pointer-events: none; }
 .orbit-second { width: 770px; height: 385px; opacity: .35; transform: rotate(17deg); }
-.phone { position: relative; width: 220px; height: 416px; padding: 6px; border-radius: 38px; background: var(--phone-metal); border: 1px solid var(--phone-edge); box-shadow: var(--phone-shadow), inset 0 0 0 2px var(--screen-ink), inset 0 0 0 3px var(--phone-edge); z-index: 2; }
+.phone { position: relative; width: 205px; height: 380px; padding: 6px; border-radius: 38px; background: var(--phone-metal); border: 1px solid var(--phone-edge); box-shadow: var(--phone-shadow), inset 0 0 0 2px var(--screen-ink), inset 0 0 0 3px var(--phone-edge); z-index: 2; }
 .phone::before { content: ''; position: absolute; left: -3px; top: 98px; width: 3px; height: 39px; background: var(--phone-edge); border-radius: 2px 0 0 2px; }
 .phone::after { content: ''; position: absolute; right: -3px; top: 113px; width: 3px; height: 49px; background: var(--phone-edge); border-radius: 0 2px 2px 0; }
 .phone-screen { position: relative; height: 100%; overflow: hidden; border-radius: 31px; background: var(--screen-ink); color: var(--screen-light); text-align: left; }
@@ -160,11 +160,11 @@
   .wordmark { font-size: 18px; }
   .header-link { display: none; }
   .header-cta { font-size: 10px; padding: 0 11px; height: 32px; }
-  .hero { padding: 23px 18px 30px; }
+  .hero { padding: 18px 18px 16px; }
   .eyebrow { font-size: 8px; }
   .hero h1 { font-size: 43px; line-height: 1.12; margin: 16px 0 11px; }
   .hero-subtitle { font-size: 11px; }
-  .phone-stage { height: 355px; margin: 25px auto 13px; }
+  .phone-stage { height: 355px; margin: 18px auto 13px; }
   .phone { width: 193px; height: 355px; border-radius: 32px; }
   .phone-screen { border-radius: 25px; }
   .phone-caption { font-size: 20px; bottom: 76px; }
