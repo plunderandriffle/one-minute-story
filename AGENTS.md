@@ -10,4 +10,4 @@
 <!-- LOVABLE:END -->
 
 - Keep sample media and timed captions in a browser-safe data module, and playback and creation inputs in focused components; this keeps the landing route presentational.
-- Creation is a client-side draft preview, not a video-generation service; never imply uploaded audio is transcribed or business URLs are fetched without a connected service.
+- Video creation goes through a server function proxy to the external minute engine (MCP over JSON-RPC) with the user's own API key from browser storage and a tool allowlist; keys never persist server-side.
